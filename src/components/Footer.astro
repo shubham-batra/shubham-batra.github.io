@@ -1,7 +1,7 @@
 ---
 import { siteConfig } from "../config";
 
-const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+const hasCredentials = siteConfig.credentials && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
@@ -71,30 +71,6 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >
           </a>
           <a
-            href={siteConfig.social.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
-            style={`--accent-color: ${siteConfig.accentColor}`}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="h-6 w-6"
-              ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path
-                d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg
-            >
-          </a>
-          <a
             href={siteConfig.social.github}
             target="_blank"
             rel="noopener noreferrer"
@@ -129,16 +105,6 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >About</a
           >
           {
-            hasProjects && (
-              <a
-                href="#projects"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                Projects
-              </a>
-            )
-          }
-          {
             hasExperience && (
               <a
                 href="#experience"
@@ -149,6 +115,17 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             )
           }
           {
+            hasCredentials && (
+              <a
+                href="#projects"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Credentials
+              </a>
+            )
+          }
+          {
+  
             hasEducation && (
               <a
                 href="#education"
@@ -161,8 +138,19 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         </nav>
         <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}
-          {siteConfig.name}. All rights reserved.
+          {siteConfig.name}. All rights reserved. 
         </p>
+<p class="text-sm text-gray-400 mt-1">
+  Based on a template by 
+  <a 
+    href="https://github.com/RyanFitzgerald/devportfolio" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="text-gray-500 hover:text-gray-700 transition-colors duration-200"
+  >
+    Ryan Fitzgerald
+  </a>
+</p>
       </div>
     </div>
   </div>

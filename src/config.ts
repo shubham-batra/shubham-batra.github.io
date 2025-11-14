@@ -1,17 +1,18 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Shubham Batra",
+  title: "Full-Stack Software Engineer",
+  description: "Portfolio website of Shubham Batra",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "shubham.batra@outlook.com",
+    linkedin: "https://www.linkedin.com/in/shubham-batra1/",
+    github: "https://github.com/shubham-batra",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I graduated from the University of California, Riverside in 2022 with a B.S. in Computer Science, building a strong foundation in full-stack development. Most recently, I contributed to Optum’s UHC Mobile and Workforce Management teams, tackling real-world challenges in software engineering. I am passionate about advancing my full-stack expertise and exploring the frontiers of AI to create meaningful, impactful solutions."
+    ,
+
+  skills: ["Javascript", "React", "Node.js", "Python", "Azure", "SQL", "HTML", "CSS", "Azure Foundry", "Terraform", "Angular", "Linux", "Git", "Postman", "Typescript", "React Native", "HashiCorp"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -37,55 +38,43 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Optum (UnitedHealth Group)",
+      title: "Associate Software Engineer",
+      dateRange: "Sept 2022 - Sept 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Developed new screens, fixed critical bugs, and integrated analytics in the UHC mobile app (1M+ users on iOS and Android) using React Native, improving data visibility and providing actionable insights for stakeholders.",
+        "Engineered a Self-Swap shift scheduling tool using Angular, designing intuitive UI components and implementing REST APIs to enable seamless data flow. Reduced manual scheduling time by 40%, enhanced agent autonomy, and helped managers resolve shift conflicts 2× faster through dynamic list/grid views",
+        "Designed and implemented the Direct Agents/Notification Preferences webpage, enabling agents to customize communication channels (Email, Text, IVR) and send canned messages. Integrated existing REST API endpoints to support dynamic user interactions",
+        "Led environment setup for a greenfield project, configuring staging and production pipelines to support scalable deployment. Navigated ambiguity by leveraging prompt engineering to accelerate decision-making and streamline implementation",
+        "Proactively implemented new security scanning protocols and led efforts to identify and remediate vulnerabilities, strengthening overall application security posture and helping reduce open security issues by over 50%"
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "University of California, Riverside",
+      title: "Cybersecurity Research Intern",
+      dateRange: "Jun 2019 - Aug 2019",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Initiated the development of an efficient internet botnet scanner built in Python with the assistance of Nmap and Scapy to scan networks.",
+        "Implemented testing by creating a mock program that can generate network traffic to a destination address ",
+        "Utilized concepts about network security and communications including packet manipulation, botnet communications, sockets, and OSI models.",
+        "Produced an abstract and gave a formal presentation in a research symposium.",
       ],
     },
+  ],
+    credentials: [
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
+      name: "Azure AI Fundamentals",
+      issuer: "Microsoft",
+      date: "Issued Oct 2025",
+      link: "https://learn.microsoft.com/en-us/users/shubhambatra-6987/credentials/a229765b17eda7d9?ref=https%3A%2F%2Fwww.linkedin.com%2F"
     },
   ],
   education: [
     {
-      school: "University Name",
+      school: "University of California, Riverside",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "2019 - 2022",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
   ],
